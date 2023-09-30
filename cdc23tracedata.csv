@@ -1,54 +1,90 @@
-rightmost,,,
-leftmost,,,
-lane-to-right,,,
-lane-to-left,,,
-gas-low,,,
-wipers-on,,,
-reduced-speed,,,
-parking-brake,,,
-doors-closed,,,
-driver-awake,,,
-rain-hazard,,,
-ice-hazard,,,
-wind-hazard,,,
-safe-stop,,,
-clear-ahead,,,
-clear-right,,,
-clear-left,,,
-short-follow-distance,,,
-construction-zone,,,
-leave-zone,,,
-want-turn-right,,,
-want-turn-left,,,
-want-straight,,,
-want-uturn,,,
-change-left,,,
-change-right,,,
-pass-allowed,,,
-stopsign,,,
-stopsign-ahead,,,
-yieldsign,,,
-yieldsign-ahead,,,
-green,,,
-green-ahead,,,
-yellow,,,
-yellow-ahead,,,
-red ,,,
-red-ahead,,,
-merge-left,,,
-merge-right,,,
-intersection,,,
-intersection-ahead,,,
-gas-station,,,
-origin,,,
-goal,,,
-waypoint,,,
-obstacle-ahead,,,
-problem-detected,,,
-stop,,,
-no-right-on-red,,,
-turn-right,,,
-turn-left,,,
-rightofway,,,
-want-pass,,,
-find-pullout,,,
+﻿origin,origin,origin
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"doors-closed, driver-awake, clear-ahead, want-straight, rightmost, rain-hazard, wipers-on, green-ahead, clear-left, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, rightmost, rain-hazard, wipers-on, green-ahead, clear-left, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"doors-closed, driver-awake, clear-ahead, want-straight, rightmost, rain-hazard, wipers-on, green-ahead, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, rightmost, rain-hazard, wipers-on, green-ahead, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"doors-closed, driver-awake, clear-ahead, want-straight, rightmost, rain-hazard, wipers-on, green, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, rightmost, rain-hazard, wipers-on, green, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed"
+"doors-closed, driver-awake, clear-ahead, want-straight, rain-hazard, wipers-on, pass-allowed, rightmost, clear-left, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, rain-hazard, wipers-on, pass-allowed, rightmost, clear-left, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight"
+"doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, rightmost, rain-hazard, wipers-on, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, rightmost, rain-hazard, wipers-on, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn "
+"doors-closed, driver-awake, clear-ahead, want-turn-right, pass-allowed, rightmost, rain-hazard, wipers-on, yellow-ahead, intersection-ahead, safe-stop, lane-to-left","doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, rightmost, rain-hazard, wipers-on, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection-ahead, green-ahead, safe-stop, reduced-speed"
+"doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, yellow-ahead, intersection-ahead, safe-stop, lane-to-left","doors-closed, driver-awake, clear-ahead, want-turn-right, pass-allowed, rightmost, rain-hazard, wipers-on, yellow-ahead, intersection-ahead, safe-stop, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection-ahead, green-ahead, safe-stop, reduced-speed"
+"doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, clear-left, lane-to-left","doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, yellow-ahead, intersection-ahead, safe-stop, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection-ahead, green-ahead, safe-stop, reduced-speed"
+"doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, lane-to-left","doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, clear-left, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection-ahead, green-ahead, safe-stop, reduced-speed"
+"doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, lane-to-left","doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection-ahead, green-ahead, safe-stop, reduced-speed"
+"doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, intersection, green, stop, no-right-on-red, clear-right, lane-to-left","doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, red, intersection, stop, no-right-on-red, clear-right, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-right-turn, intersection, green, reduced-speed, turn-right"
+"doors-closed, driver-awake, clear-ahead, rightmost, intersection, green, no-right-on-red, clear-right, turn-right","doors-closed, driver-awake, clear-ahead, want-turn-right, rightmost, rain-hazard, wipers-on, intersection, green, stop, no-right-on-red, clear-right, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","doors-closed, driver-awake, clear-ahead, rightmost, intersection, green, no-right-on-red, clear-right, turn-right","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, merge-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, merge-left, clear-left, change-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","lane-to-right, lane-to-left, clear-right, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","lane-to-right, lane-to-left, clear-right, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, gas-low, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, gas-low, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, gas-low, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, clear-left, gas-low, lane-to-left","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, lane-to-left, merge-left","rightmost, doors-closed, driver-awake, want-straight, short-follow-distance, clear-left, lane-to-left, reduced-speed"
+"rightmost, doors-closed, driver-awake, clear-ahead, want-turn-left, pass-allowed, clear-left, lane-to-left, gas-low, intersection-ahead, green-ahead, reduced-speed, change-left, safe-stop","rightmost, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, lane-to-left, merge-left, reduced-speed, change-left, construction-zone","rightmost, doors-closed, driver-awake, want-straight, short-follow-distance, clear-left, lane-to-left, reduced-speed, change-left"
+"leftmost, doors-closed, driver-awake, clear-ahead, want-turn-left, pass-allowed, clear-right, lane-to-right, gas-low, intersection-ahead, green-ahead, reduced-speed, safe-stop","leftmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone, merge-left, lane-to-right","leftmost, doors-closed, driver-awake, lane-to-right"
+"leftmost, doors-closed, driver-awake, clear-ahead, want-turn-left, clear-right, lane-to-right, gas-low, intersection-ahead, green-ahead, reduced-speed, safe-stop","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","leftmost, doors-closed, driver-awake, clear-ahead, want-straight, lane-to-right"
+"leftmost, doors-closed, driver-awake, clear-ahead, want-turn-left, clear-right, lane-to-right, gas-low, intersection, green, reduced-speed, turn-left","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","leftmost, doors-closed, driver-awake, clear-ahead, want-straight, lane-to-right, clear-right"
+"leftmost, doors-closed, driver-awake, clear-ahead, want-turn-left, clear-right, lane-to-right, gas-low, intersection, green, reduced-speed, turn-left","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"leftmost, doors-closed, driver-awake, clear-ahead, pass-allowed, clear-right, gas-low, lane-to-right","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"leftmost, doors-closed, driver-awake, clear-ahead, pass-allowed, clear-right, gas-low, lane-to-right","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"leftmost, doors-closed, driver-awake, clear-ahead, pass-allowed, clear-right, gas-low, lane-to-right","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"leftmost, doors-closed, driver-awake, clear-ahead, pass-allowed, clear-right, gas-low, lane-to-right","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"gas-station, driver-awake, stop, clear-ahead","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"gas-station, driver-awake, stop, clear-ahead","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, construction-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"gas-station, driver-awake, stop, clear-ahead","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight, reduced-speed, leave-zone","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"gas-station, driver-awake, doors-closed, stop, clear-ahead","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"gas-station, driver-awake, doors-closed, stop, clear-ahead","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead,  lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left, change-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, lane-to-right, want-straight, merge-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, doors-closed, driver-awake, clear-ahead, clear-right, lane-to-right, want-straight, merge-right, change-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","rightmost, doors-closed, driver-awake, clear-ahead, clear-left, lane-to-left, want-straight, merge-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, intersection-ahead, stopsign-ahead, safe-stop, reduced-speed","rightmost, doors-closed, driver-awake, clear-ahead, clear-left, lane-to-left, want-straight, merge-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed, intersection-ahead, stopsign-ahead, safe-stop, reduced-speed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, intersection, stopsign, stop","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, intersection, stopsign, stop","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, intersection, stopsign, stop, rightofway","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, intersection, stopsign, rightofway","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right, intersection-ahead, safe-stop, reduced-speed","lane-to-right, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right, intersection-ahead, safe-stop, reduced-speed","leftmost, lane-to-right, doors-closed, driver-awake, clear-ahead, want-straight "
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right, intersection-ahead, safe-stop, reduced-speed","leftmost, lane-to-right, doors-closed, driver-awake, clear-ahead, want-straight "
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right, intersection, reduced-speed, turn-right","leftmost, lane-to-right, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-turn-right, intersection, reduced-speed, turn-right","leftmost, lane-to-right, doors-closed, driver-awake, clear-ahead, want-straight, clear-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight","leftmost, lane-to-right, doors-closed, driver-awake, clear-ahead, want-straight, clear-right, change-right"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight, clear-left"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","leftmost, rightmost, doors-closed, driver-awake, clear-ahead, want-straight","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake, doors-closed","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake, doors-closed","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake, doors-closed","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed","driver-awake, stop, clear-ahead, parking-brake","rightmost, lane-to-left, doors-closed, driver-awake, clear-ahead, want-straight"
+"rightmost, leftmost, doors-closed, driver-awake, clear-ahead, want-straight, pass-allowed",goal,goal
